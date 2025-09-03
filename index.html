@@ -1,0 +1,167 @@
+<!--Lucas Inácio - 2D - 20/08/2025-->
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <title>Jinjer</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class=" p-5">
+
+        <nav class="container d-flex justify-content-between align-items-center" >
+            <img src="img/Jinjer-logo.png" class="rounded-5" loading="lazy" width="60%">
+            <ul class="nav mt-5">
+                <li class="nav-item"><a class="nav-link" href="#inicio" >Início</a></li>
+                <li class="nav-item"><a class="nav-link" href="#galeria">Galeria</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+            </ul>
+            <div id="acessibilidade" class="menu-acessibilidade"> 
+                <button id="botao-acessibilidade" class="btn btn-primary fw-bold rotacao-botao" aria-expanded="false">acessibilidade</button>
+                <div id="opcoes-acessibilidade" class="opcoes-acessibilidade apresenta-lista">
+                    <button id="aumentar-fonte" class="btn btn-primary fw-bold" aria-label="Aumentar o tamanho da fonte">A+</button>
+                    <button id="diminuir-fonte" class="btn btn-primary fw-bold" aria-label="diminuir o tamanho da fonte">A-</button>
+                    <button id="alterna-contraste" class="btn btn-primary fw-bold" aria-label="Alterna o contraste de cores"> <i class="bi bi-shadows"></i></button>         
+                </div>
+            </div>
+        </nav>
+       
+    </header>
+
+
+    <main class="container my-5">
+
+        <section id="inicio" class="my-5">
+            <div class="inicio-fundo d-flex justify-content-between align-items-center">
+                <div class="esquerda-conteudo">
+                    <h1 class="display-4 text-red fst-italic fw-bold">Apresentando...</h1>
+                    <img src="img/jinjer-band.jpg" class="rounded-5" width="80%" height="80%" loading="lazy">
+                    <a href="#jinjer"
+                        class="btn btn-primary btn-lg botao-inicio fw-semibold">Conheça a banda</a>
+                </div>
+              </div>
+        </section>
+
+        <section id="jinjer" class="my-5 pt-6 secao-jinjer" tabindex="0" aria-label="Seção explicativa sobre jinjer">
+            <div class="container d-flex align-items-center ">
+                 <img src="img/logo2.png" class="rounded-circle" width="400" height="400" loading="lazy">
+                <div class="text-center"></div>
+                <div class="col-5">
+                    <h2>O que Jinjer?</h2>
+                    <p class="p-2">Jinjer é uma banda de metal progressivo e metalcore, formada em Donetsk, na Ucrânia, 
+a banda atualmente possui uma formação clássica, sendo um guitarrista, um baixista, um baterista e a vocalista, apesar de
+nenhum membro atual ser da formação original, a formação atual é a mais consistente, estando assim desde 2016.</p>
+                    <p> A formação atual é formada pela vocalista Tatiana Shmayluk, o baixista Eugene Kostyuk, o guitarrista
+Roman Ibramkhalilov, e o baterista Vlad Ulasevish</p>
+                    <p>A banda lançou até o momento 5 albuns de estúdio e 3 EPs, sendo o lançamento mais recente o album Duél.</p>
+                    <p>O maior sucesso da banda é a faixa "Pisces" lançado no album King of Everything, de 2016, com mais de 90 milhões
+                        de visualizações no Youtube.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="galeria" tabindex="0" aria-label="Seção de galeria de imagens">
+            <h2 class="text-center pt-5">Galeria da banda</h2>
+            <div class="container p-3 mt-3 fundo-galeria ">
+
+                <div class="row justify-content-md-center">
+                    <div class="col-md-4">
+                        <img src="img/eugene-jinjer.jpg"
+                            class="img-fluid rounded-5" loading="lazy">
+                    </div>
+                    <div class="col-md-4">
+                        <img src="img/tatiana-jinjer.webp" class="img-fluid rounded-5"
+                            loading="lazy">
+                    </div>
+                    <div class="col-md-4">
+                        <img src="img/roman-jinjer.jpg" class="img-fluid rounded-5" loading="lazy">
+                    </div>
+                    <div class="col-md-4">
+                        <img src="img/vlad-jinjer.jpg" class="img-fluid rounded-5" loading="lazy">
+                    </div>
+                </div>
+                <div class="row mt-4  justify-content-md-center">
+                    <div class="col-md-4">
+                        <img src="img/photo-band.webp" class="img-fluid rounded-5" loading="lazy">
+                    </div>
+                        <div class="col-md-4">
+                        <img src="img/photo-band2.jpg" class="img-fluid rounded-5" loading="lazy">
+                    </div>
+                    <div class="col-md-4">
+                        <img src="img/photo-band3.jpg" class="img-fluid rounded-5" loading="lazy">
+                    </div>
+                    <div class="row mt-4  justify-content-md-center">
+                        <div class="col-md-4">
+                        <img src="img/foto-eugene.jpg" class="img-fluid rounded-5" loading="lazy">
+                    </div>
+                    <div class="col-md-4">
+                        <img src="img/foto-roman.jpg" class="img-fluid rounded-5" loading="lazy">
+                    </div>
+                    <div class="col-md-4">
+                        <img src="img/foto-tati.jpg" class="img-fluid rounded-5" loading="lazy">
+                    </div>
+                    <div class="col-md-4">
+                        <img src="img/foto-vlad.jpg" class="img-fluid rounded-5" loading="lazy">
+                    </div>
+                    </div>
+                    <div class="row mt-4  justify-content-md-center">
+                        <div class="col-md-4">
+                        <img src="img/aura1.jpg" class="img-fluid rounded-5" loading="lazy">
+                    </div>
+                    <div class="col-md-4">
+                        <img src="img/aura2.jpg" class="img-fluid rounded-5" loading="lazy">
+                    </div>
+                    </div>
+                    </div>
+                </div>
+             </div>
+        </section>
+
+
+        <section id="contato">
+            <div class="container p-5 d-flex justify-content-center">
+                <div class="col-md-8 col-lg-10 rounded-5 formulario"> <!-- Caixa do formulário com 60% de largura -->
+                    <h2 class="mb-3">Entre em contato</h2>
+                    <form>
+                        <div class="form-group mb-3">
+                            <label for="nome">Nome</label>
+                            <input type="text" id="nome" name="nome" class="form-control rounded-3 mt-1"
+                                placeholder="Digite seu nome completo">
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" class="form-control rounded-3 mt-1"
+                                placeholder="Digite seu email">
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="mensagem">Mensagem</label>
+                            <textarea id="mensagem" name="mensagem" class="form-control rounded-4 mt-2" rows="4"
+                                placeholder="Escreva sua mensagem"></textarea>
+                        </div>
+                        <div class="d-grid gap-2">
+                            <button type="submit" class="btn btn-primary btn-lg rounded-pill">Enviar
+                                mensagem</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="text-center p-3 fst-italic">
+        <p class="mt-3">Desenvolvido pelo maravilhoso Lucas Inácio de Oliveira (trabalho escolar)</p>
+        <p>me segue no insta</p>
+        <i class="bi bi-instagram">lukass3015</i>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.js"></script>
+    <script src="script.js"></script>
+  
+</body>
+
+</html>
